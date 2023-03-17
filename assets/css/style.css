@@ -410,7 +410,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -444,8 +444,7 @@ h6 {
 
 #hero h1 span {
   color: #da1419;
-  font-family: Euphoria Script;
-  font-size: 60px;
+  font-family: fantasy;
 }
 
 #hero h2 span {
@@ -664,7 +663,7 @@ section {
   margin: 0;
   font-size: 46px;
   font-weight: 700;
-  font-family: Euphoria Script;
+  font-family: fantasy;
   color: #da1419;
 }
 
