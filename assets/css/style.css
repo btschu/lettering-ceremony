@@ -6,7 +6,7 @@
 */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 
 /*--------------------------------------------------------------
@@ -35,6 +35,16 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+}
+
+.card {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /*--------------------------------------------------------------
@@ -158,7 +168,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   /* text-transform: uppercase; */
-  font-family: cursive;
+  font-family: 'Kaushan Script', sans-serif;
 }
 
 #header .logo span {
@@ -439,12 +449,12 @@ h6 {
   font-weight: 1000;
   line-height: 56px;
   color: #fff;
-  font-family: fantasy;
+  font-family: 'Kaushan Script', sans-serif;
 }
 
 #hero h1 span {
   color: #da1419;
-  font-family: fantasy;
+  font-family: 'Kaushan Script', sans-serif;
 }
 
 #hero h2 span {
@@ -663,7 +673,7 @@ section {
   margin: 0;
   font-size: 46px;
   font-weight: 700;
-  font-family: fantasy;
+  font-family: 'Kaushan Script', sans-serif;
   color: #da1419;
 }
 
@@ -736,7 +746,7 @@ section {
   font-weight: 700;
   color: #da1419;
   margin-bottom: 20px;
-  font-family: cursive;
+  font-family: 'Kaushan Script', sans-serif;
 }
 
 .students .box h4 {
@@ -779,15 +789,10 @@ section {
 
 #program h2 span {
   color: #da1419;
-  font-family: cursive;
+  font-family: 'Kaushan Script', sans-serif;
 }
 
-.card {
-  box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
-  background: black !important;
-  border-radius: 16px !important;
-  /* border: 1px solid rgba(255, 255, 255, 0.589) !important; */
-}
+
 
 .program #program-filters {
   padding: 0;
@@ -827,9 +832,6 @@ section {
 }
 
 .program .program-item ul {
-  /* columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3; */
   list-style: none;
 }
 
@@ -838,7 +840,22 @@ section {
   -webkit-columns: 3;
   -moz-columns: 3;
   list-style: none;
+}
 
+@media (max-width: 900px) {
+  .program .program-item .recipients ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
+@media (max-width: 900px) {
+  .program .program-item .recipients ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
 }
 
 .program .program-item ul li {
@@ -899,6 +916,16 @@ section {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
   background: black;
+}
+
+@media (max-width: 900px) {
+  .program .recipients li {
+    font-size: 11px;
+  }
+  
+  .program .soloists  {
+    margin-left: 0;
+  }
 }
 
 .program .recipients {
@@ -1065,20 +1092,35 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-  /* background: black; */
+  /* background: url("../img/footer-bg.jpg") top center; */
   border-top: 1px solid #37332a;
   padding: 60px 20px;
   line-height: 1;
+  /* width: 100%;
+  background-size: cover;
+  position: relative; */
 }
 
+/* #footer:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+
 #footer h3 {
-  font-family: cursive;
+  font-family: 'Kaushan Script', sans-serif;
   font-size: 44px;
+  z-index: 10;
 }
 
 #logo img{
   height: 150px;
   border-radius: 16px;
+  z-index: 10;
 }
 
 #footer .copyright {
