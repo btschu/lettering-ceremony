@@ -421,7 +421,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 100%;
 }
 
 /* @media (max-width: 992px) {
@@ -572,9 +572,9 @@ h6 {
 }
 
 @media (max-height: 500px) {
-  #hero {
+  /* #hero {
     height: auto;
-  }
+  } */
 
   /* #hero .container {
     padding-top: 130px;
@@ -586,6 +586,9 @@ h6 {
   #hero h1 {
     font-size: 24px;
     line-height: 36px;
+  }
+  #hero h1 span{
+    font-size: 44px;
   }
 
   #hero h2 {
