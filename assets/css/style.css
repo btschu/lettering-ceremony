@@ -661,10 +661,11 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 46px;
+  font-size: 60px;
+  /* text-decoration:underline; */
   font-weight: 700;
   font-family: 'Kaushan Script', sans-serif;
-  color: #da1419;
+  /* color: #da1419; */
 }
 
 /*--------------------------------------------------------------
