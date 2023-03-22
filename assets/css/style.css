@@ -633,16 +633,16 @@ section {
   background-color: #242526;
 }
 
-.section-title {
+/* .section-title {
   padding-bottom: 40px;
-}
+} */
 
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 0 0 5px 0;
+  /* margin: 0 0 5px 0; */
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
@@ -655,7 +655,7 @@ section {
   height: 1px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
-  margin: 4px 10px;
+  /* margin: 4px 10px; */
 }
 
 .section-title p {
@@ -780,6 +780,7 @@ section {
 #program h2 span {
   color: #da1419;
   font-family: 'Kaushan Script', sans-serif;
+  font-size: 30px;
 }
 
 
@@ -818,7 +819,7 @@ section {
 }
 
 .program .program-item {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .program .program-item ul {
